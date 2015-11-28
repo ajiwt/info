@@ -1,0 +1,10 @@
+Flask Usage:
+
+create a folder where you gotta work:
+then:
+type in terminal to isolate all the packages:
+virtualenv --no-site-packages venv
+then we activate our virtual enviroment: 
+source venv/bin/activate
+then type to crete a new file:
+touch app.py
