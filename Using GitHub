@@ -55,8 +55,7 @@ Now if other guy wants to take the code
 ####################################### * CODE IF ASKS YOU WHO YOU ARE * ##################################
 
 
-1.git init
-2.git config user.name "someone"
-3.git config user.email "someone@someplace.com"
-4.git add *
-5.git commit -m "some init msg"
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+
