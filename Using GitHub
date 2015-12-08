@@ -1,0 +1,62 @@
+Github
+
+*************** Make sure that when you type this commands you are in the repository **********************
+
+put this command in the directory you want:
+
+git clone is the command and what it does is copy all the repository copy it in the folder and put it in a folder by its name
+git clone https://github.com/ajiwt/Scraping.git
+
+now on sublime go to Project and select Add folder to project 
+and select the folder you save your repository
+
+
+2)Second command "git status"
+
+	git status --> this will show us what's different between us and github
+
+
+3)Third command  "git add"
+
+	git add app.py  ---> Which means were gonna add any changes or files 
+
+4)Fourth command "git commit -m"
+	
+	git commit -m "added index.html"				---->Which means im locking in it to the repository, "-m" means and give in it a message and the message is gonna be in quotes 
+
+
+So now its commited but it's still on my machine is locked in the repository but it's not sync up to gihub.com
+
+So to do the Sync:
+
+5)Fith command "git push"
+
+		git push --> it's gonna take it off everything from my machine and it's gonna push it off to github.com
+
+NOW ITS IN THE REPOSITORY ON Github.com
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ & ADD CHANGES & ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+		git add -A  ---> add everything
+
+		git commit -m "make nice change to be more explicit"  ---> in colon you put the comment ofthe changes
+
+		git push
+
+-----------------------------------------------------------------------------------------------------------
+
+Now if other guy wants to take the code
+
+6)Sixth command " git pull"
+
+					---> pulls down the content from github.com 
+
+####################################### * CODE IF ASKS YOU WHO YOU ARE * ##################################
+
+
+1.git init
+2.git config user.name "someone"
+3.git config user.email "someone@someplace.com"
+4.git add *
+5.git commit -m "some init msg"
